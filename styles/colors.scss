@@ -1,0 +1,31 @@
+@import './color-map.scss';
+
+:root {
+  @each $key, $value in $gray-colors {
+    --gray-#{$key} : #{$value};
+  }
+  @each $key, $value in $brand-colors {
+    --brand-#{$key} : #{$value};
+  }
+  @each $key, $value in $red-colors {
+    --red-#{$key} : #{$value};
+  }
+  @each $key, $value in $orange-colors {
+    --orange-#{$key} : #{$value};
+  }
+  @each $key, $value in $yellow-colors {
+    --yellow-#{$key} : #{$value};
+  }
+  @each $key, $value in $green-colors {
+    --green-#{$key} : #{$value};
+  }
+  @each $key, $value in $teal-colors {
+    --teal-#{$key} : #{$value};
+  }
+  @each $key, $value in $purple-colors {
+    --purple-#{$key} : #{$value};
+  }
+  @each $key, $value in $pink-colors {
+    --pink-#{$key} : #{$value};
+  }
+}

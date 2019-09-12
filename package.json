@@ -1,0 +1,30 @@
+{
+  "name": "@klausapp/design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens and variables that Klaus is fond of",
+  "main": "styles/variables.scss",
+  "scripts": {
+    "compile:colors": "npx dart-sass styles/colors.scss dist/colors.css --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/klausapp/design-tokens.git"
+  },
+  "keywords": [
+    "design",
+    "tokens",
+    "design",
+    "tokens",
+    "klausapp",
+    "klaus",
+    "css",
+    "variables"
+  ],
+  "author": "Klaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klausapp/design-tokens/issues"
+  },
+  "homepage": "https://github.com/klausapp/design-tokens#readme"
+}
