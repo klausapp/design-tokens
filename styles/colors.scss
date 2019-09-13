@@ -1,5 +1,6 @@
 @import './color-map.scss';
 
+// Map colors to CSS Custom Properties
 :root {
   @each $key, $value in $gray-colors {
     --gray-#{$key} : #{$value};
@@ -28,4 +29,15 @@
   @each $key, $value in $pink-colors {
     --pink-#{$key} : #{$value};
   }
+}
+
+// Color utility classes
+@each $key, $value in $gray-colors {
+  .color-gray-#{$key} { color: var(--gray-#{$key}); }
+}
+@each $key, $value in $brand-colors {
+  .color-brand-#{$key} { color: var(--brand-#{$key}); }
+}
+@each $key, $value in $red-colors {
+  .color-red-#{$key} { color: var(--red#{$key}); }
 }
