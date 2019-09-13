@@ -4,6 +4,7 @@
   "description": "Design tokens and variables that Klaus is fond of",
   "main": "styles/variables.scss",
   "scripts": {
+    "deploy": "npm version patch && git push && git push --tags",
     "compile:colors": "npx dart-sass styles/colors.scss dist/colors.css --no-source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
