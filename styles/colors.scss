@@ -5,39 +5,51 @@
   @each $key, $value in $gray-colors {
     --gray-#{$key} : #{$value};
   }
+  --gray: var(--gray-50);
   @each $key, $value in $brand-colors {
     --brand-#{$key} : #{$value};
   }
+  --brand: var(--brand-50);
   @each $key, $value in $red-colors {
     --red-#{$key} : #{$value};
   }
+  --red: var(--red-50);
   @each $key, $value in $orange-colors {
     --orange-#{$key} : #{$value};
   }
+  --orange: var(--orange-50);
   @each $key, $value in $yellow-colors {
     --yellow-#{$key} : #{$value};
   }
+  --yellow: var(--yellow-50);
   @each $key, $value in $green-colors {
     --green-#{$key} : #{$value};
   }
+  --green: var(--green-50);
   @each $key, $value in $teal-colors {
     --teal-#{$key} : #{$value};
   }
+  --teal: var(--teal-50);
   @each $key, $value in $purple-colors {
     --purple-#{$key} : #{$value};
   }
+  --purple: var(--purple-50);
   @each $key, $value in $pink-colors {
     --pink-#{$key} : #{$value};
   }
+  --pink: var(--pink-50);
 }
 
 // Color utility classes
 @each $key, $value in $gray-colors {
   .color-gray-#{$key} { color: var(--gray-#{$key}); }
 }
+.color-gray { color: var(--gray); }
 @each $key, $value in $brand-colors {
   .color-brand-#{$key} { color: var(--brand-#{$key}); }
 }
+.color-brand { color: var(--brand); }
 @each $key, $value in $red-colors {
   .color-red-#{$key} { color: var(--red#{$key}); }
 }
+.color-red { color: var(--red); }
