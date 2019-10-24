@@ -5,7 +5,11 @@
   "main": "styles/variables.scss",
   "scripts": {
     "deploy": "npm version patch && git push && git push --tags",
+    "compile": "npx dart-sass styles/main.scss dist/main.css --no-source-map --style=compressed",
     "compile:colors": "npx dart-sass styles/colors.scss dist/colors.css --no-source-map --style=compressed",
+    "compile:spacing": "npx dart-sass styles/spacing.scss dist/spacing.css --no-source-map --style=compressed",
+    "compile:shadows": "npx dart-sass styles/shadows.scss dist/shadows.css --no-source-map --style=compressed",
+    "compile:typo": "npx dart-sass styles/typo.scss dist/typo.css --no-source-map --style=compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
