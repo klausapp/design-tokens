@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      'moderat': ['moderat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji']
+    },
     boxShadow: {
       'xs': '0px 1px 2px rgba(45, 55, 72, 0.08)',
       'base': '0px 1px 4px rgba(45, 55, 72, 0.12), 0px 1px 2px rgba(45, 55, 72, 0.04)',
