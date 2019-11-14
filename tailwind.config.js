@@ -25,6 +25,7 @@ module.exports = {
       '7xl': '5rem',
     },
     colors: {
+      white: '#ffffff',
       gray: {
         90: '#1A202C',
         80: '#2D3748',
