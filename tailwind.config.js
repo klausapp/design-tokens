@@ -136,7 +136,6 @@ module.exports = {
     require('tailwind-css-variables')({
       colors: 'color',
       screens: false,
-      fontFamily: false,
       fontSize: false,
       fontWeight: false,
       lineHeight: false,
