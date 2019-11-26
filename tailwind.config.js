@@ -131,7 +131,9 @@ module.exports = {
     },
     extend: {}
   },
-  variants: {},
+  variants: {
+    flexRowReverse: ['odd'],
+  },
   plugins: [
     require('tailwind-css-variables')({
       colors: 'color',
