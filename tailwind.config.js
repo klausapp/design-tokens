@@ -132,7 +132,7 @@ module.exports = {
     extend: {}
   },
   variants: {
-    flexDirection: ['odd'],
+    flexDirection: ['odd', 'even'],
   },
   plugins: [
     require('tailwind-css-variables')({
