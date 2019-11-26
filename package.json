@@ -1,6 +1,6 @@
 {
   "name": "@klausapp/design-tokens",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Design tokens and variables that Klaus is fond of",
   "main": "dist/main.css",
   "scripts": {
