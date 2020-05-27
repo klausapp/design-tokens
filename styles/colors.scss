@@ -30,6 +30,10 @@
     --teal-#{$key} : #{$value};
   }
   --teal: var(--teal-50);
+  @each $key, $value in $blue-colors {
+    --blue-#{$key} : #{$value};
+  }
+  --blue: var(--blue-50);
   @each $key, $value in $purple-colors {
     --purple-#{$key} : #{$value};
   }
